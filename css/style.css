@@ -1,0 +1,158 @@
+:root {
+  --pink: #ffb8ca;
+  --coffee: #f0d1a5;
+  --green: #c2e297;
+  --accent-color: #d41443;
+  --clean-color: #ffffff;
+}
+.bodw {
+  box-sizing: border-box;
+}
+.container {
+  background-color: var(--pink);
+}
+.list {
+  list-style: none;
+  margin: 0px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.li-nav {
+  margin-right: 35px;
+}
+
+.site-nav:last-child {
+  margin-right: 0;
+}
+.heading {
+  font-family: "Titan One", cursive;
+  font-size: 38px;
+  font-weight: normal;
+  color: var(--clean-color);
+}
+.big-red-letters {
+  font-family: "Titan One", cursive;
+  font-size: 58px;
+  color: var(--accent-color);
+  font-weight: normal;
+}
+.one {
+  margin-left: 77px;
+}
+.two {
+  margin-left: 38px;
+}
+.poema {
+  width: 200px;
+}
+.space {
+  justify-content: space-between;
+  display: flex;
+}
+/* colors selectors*/
+.pink {
+  background-color: var(--pink);
+}
+.coffee {
+  background-color: var(--coffee);
+}
+.green {
+  background-color: var(--green);
+}
+/* Section cards */
+.section-icecream-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.container-width {
+  width: 1031px;
+  margin: 0 auto;
+}
+.section-icecream-padding {
+  padding: 127px 0 119px 0;
+}
+.all-area-icecream-cards {
+  position: relative;
+  height: 735px;
+  padding-top: 210px;
+}
+
+.icecream-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 328px;
+  height: 525px;
+  border-radius: 24px;
+  padding: 163px 44px 50px 44px;
+}
+/* заголовки */
+.big-pink-letters {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--pink);
+  margin: 0;
+}
+.section-icecream-padding .big-red-letters {
+  text-align: center;
+  margin: 0;
+  margin-top: 15px;
+}
+/* заголовок точки текст */
+.header-icecream-cards {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--clean-color);
+  margin: 0;
+}
+.dots-icecream-cards {
+  display: block;
+  color: var(--clean-color);
+  margin: 32px 0;
+  text-align: center;
+}
+.text-icecream-cards {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.76;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--clean-color);
+  margin: 0;
+}
+/* стрелка */
+.arrow-icecream-cards {
+  display: block;
+  text-align: center;
+  align-self: center;
+}
+.img-arrow-icecream-cards {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+/* абсолют мороженки */
+.absolute-icecream {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
